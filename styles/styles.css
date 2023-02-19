@@ -39,10 +39,9 @@ p{
 
 .button{
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;  
 }
-.header-button{
+.section-one-button{
     font-weight: 500;
     font-size: 16px;
     color: #FFFFFF;
@@ -56,4 +55,18 @@ p{
     display:flex;
     justify-content: center;
     align-items: center;
+}
+.strong-sides{
+    display: flex;
+    justify-content: center;
+}
+.pros-list{
+    display: flex;
+    list-style: none;
+    padding-left: 156px;
+    padding-right: 156px;
+    margin: 0;    
+}
+.pros-list li{
+    margin-right: 20px;
 }
