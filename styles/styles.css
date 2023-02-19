@@ -70,3 +70,18 @@ p{
 .pros-list li{
     margin-right: 20px;
 }
+.image-section{
+    display: flex;
+    justify-content: space-around;
+}
+.image-list{
+    display: flex;
+    list-style: none;
+    padding-left: 156px;
+    padding-right: 156px;
+    padding-top: 72px;
+    margin: 0;
+}
+.image-list li{
+    margin-right: 24px;
+}
