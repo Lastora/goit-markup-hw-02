@@ -10,7 +10,6 @@ color:#FFFFFF ;
 h2{
     font-size: 36px;
     font-weight: 700;
-    text-align: center;
     color: #434455;
 }
 h3{
@@ -62,13 +61,15 @@ p{
 }
 .pros-list{
     display: flex;
-    list-style: none;
-    padding-left: 156px;
-    padding-right: 156px;
-    margin: 0;    
+    justify-content: left;
+    list-style: none; 
 }
 .pros-list li{
     margin-right: 20px;
+}
+.about{
+    display: flex;
+    justify-content: center;
 }
 .image-section{
     display: flex;
@@ -92,10 +93,17 @@ p{
 .team-list{
     display: flex;
         list-style: none;
-        padding-left: 156px;
-        padding-right: 156px;
-        padding-top: 72px;
-        margin: 0;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0px 32px;
+        gap: 32px;
+            width: 264px;
+            height: 380px;
+            left: 1020px;
+            top: 1780px;
+            box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+            border-radius: 0px 0px 4px 4px;
 
 }
 .team-list li{
