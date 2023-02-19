@@ -1,5 +1,59 @@
-
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', 'Raleway', sans-serif;
+}
+h1{
+font-weight: 700;
+font-weight: 700;
+font-size: 56px;
+color:#FFFFFF ;
+}
+h2{
+    font-size: 36px;
+    font-weight: 700;
     text-align: center;
+    color: #434455;
+}
+h3{
+    font-weight: 500;
+    font-size: 20px;
+    color: #2E2F42;
+}
+p{
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+}
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2E2F42;
+    width: 100%;
+    height: 600px;
+    left: 636px;
+    top: 72px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    
+}
+button{
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    width: 169px;
+    height: 56px;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.bsnss{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
