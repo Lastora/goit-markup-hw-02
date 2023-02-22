@@ -22,6 +22,29 @@ p{
     font-size: 16px;
     font-weight: 400;
 }
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: #404BBF;
+    text-decoration: none;
+    font-weight: 500;
+    size: 16px;
+}
+.link{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    font-style: normal;
+    color: #434455;
+}
+.link:link{
+    text-decoration: none;
+}
+.link:visited{
+    color:#404BBF ;
+}
 .logo{
     font-family: 'Raleway' sans-serif;
     font-size: 18px;
@@ -31,6 +54,9 @@ p{
 }
 .logo > span{
 color: #2E2F42;
+}
+.logo:link{
+    text-decoration: none;
 }
 .main-section{
     background-color: #2E2F42;
