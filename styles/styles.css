@@ -1,21 +1,25 @@
 body {
     font-family: 'Roboto', 'Raleway', sans-serif;
+    letter-spacing: 2%;
 }
 h1{
 font-weight: 700;
 font-weight: 700;
 font-size: 56px;
+letter-spacing: 2%;
 color:#FFFFFF ;
 }
 h2{
     font-size: 36px;
     font-weight: 700;
     color: #434455;
+    letter-spacing: 2%;
 }
 h3{
     font-weight: 500;
     font-size: 20px;
     color: #2E2F42;
+    letter-spacing: 2%;
 }
 p{
     color: #434455;
