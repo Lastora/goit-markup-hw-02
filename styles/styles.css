@@ -3,7 +3,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    background-color: #FFFFFF;
+    background-color: var(--white);
     color: var(--text-color);
 }
 :root{
@@ -28,16 +28,15 @@ body {
 }
 .link-list{
     text-decoration: none;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     color: var(--shadow-color);
 }
+.link-list:hover,
 .link-list:focus,
 .link-list:active{
     color: var(--ocean-color);
-    outline: none;
 }
 .contacts{
     text-decoration: none;
@@ -45,10 +44,10 @@ body {
         line-height: 1.5;
         color: var(--text-color);
 }
+.contacts:hover,
 .contacts:focus,
 .contacts:active{
     color: var(--ocean-color);
-    outline: none;
 }
 .logo{
     font-family: 'Raleway', sans-serif ;
@@ -67,7 +66,6 @@ color: var(--shadow-color);
 .logo:focus,
 .logo:link{
     text-decoration: none;
-    outline: none;
 }
 .main-section{
     background-color: var(--hero-color);
@@ -83,8 +81,6 @@ color: var(--shadow-color);
     font-size: 16px;
     color:var(--white);
     background-color: var(--brand-color);
-    width: 169px;
-    height: 56px;
     font-family: inherit;
     border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -92,12 +88,8 @@ color: var(--shadow-color);
 }
 .section-one-button:focus,
 .section-one-button:hover{
-    font-weight: 500;
-    font-size: 16px;
-    color: var(--white);
     background-color: var(--ocean-color);
     cursor: pointer;
-    outline: none;
 }
 .header-text{
     font-weight: 500;
@@ -117,35 +109,26 @@ color: var(--shadow-color);
 /*Portfolio section*/
 
 .portfolio-button-all{
-    list-style: none;
     font-weight: 500;
     font-size: 16px;
     font-family: inherit;
     letter-spacing: 0.04em;
     color: var(--white);
     background-color: var(--brand-color);
-    width: 69px;
-    height: 48px;
     border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
 }
 .portfolio-button-all:focus,
 .portfolio-button-all:hover{
-    font-weight: inherit;
-        font-size: inherit;
-        color: var(--white);
         background-color: var(--ocean-color);
         cursor: pointer;
-        outline: none;
 }
 .portfolio-button-rest{
         font-weight: 500;
         font-size: 16px;
         font-family: inherit;
         color: var(--brand-color);
-        width: 116px;
-        height: 48px;
         letter-spacing: 0.04em;
         background-color: var(--light-color);
         border: 1px solid var(--accent-color);
@@ -154,7 +137,7 @@ color: var(--shadow-color);
 .portfolio-button-rest:focus,
 .portfolio-button-rest:hover{
     cursor: pointer;
-    outline: none;
+    background-color: var(--accent-color);
 }
 .links-portfolio{
     text-decoration: none;
